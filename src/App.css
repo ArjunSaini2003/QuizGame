@@ -1,0 +1,32 @@
+.quiz-container {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  height: 100vh;
+}
+
+.quiz-card {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.quiz-option {
+  background: #f8f9fa;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.quiz-option:hover {
+  background: #ffc107;
+}
+
+.correct {
+  background: #28a745 !important;
+  color: white;
+}
+
+.wrong {
+  background: #dc3545 !important;
+  color: white;
+}
